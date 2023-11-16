@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+
+    
+
+    <!-- file css -->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+
+    <div class="head">
+        <div class="container">
+            <div class="col-12">
+                <h1> TO DO LIST </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-lg-6 col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="form-group">
+                    <div class="col-12 text-center">
+                        <label for=""> Task</label>
+                    </div>
+
+                    <div class="col-12">
+                        <input type="text" placeholder="Your Task" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <button class="btn btn-info  " id="btn-submit">Add Task</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container col-lg-6 col-sm-12">
+        <div class="col-12 text-center">
+            <h2 > All Tasks</h2>
+        </div>
+
+        <div class="card-2">
+            <div class="card-body-2">
+                <div class="all-tasks">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/unpkg.com_@popperjs_core@2.11.8_dist_umd_popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
